@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sciqus Frontend Task</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <button class="hamburger" onclick="toggleSidebar()">☰</button>
+    <h1>Sciqus Dashboard</h1>
+  </header>
+
+  <div class="layout">
+    
+   <aside class="sidebar" id="sidebar">
+  <ul>
+    <li><i class="fas fa-home"></i> Home</li>
+    <li><i class="fas fa-book"></i> Courses</li>
+    <li><i class="fas fa-user-graduate"></i> Students</li>
+    <li><i class="fas fa-cog"></i> Settings</li>
+  </ul>
+</aside>
+
+
+    <!-- Main Content -->
+    <main class="content">
+     <div class="container c1" data-title="Image Carousel">Image / Banner</div>
+<div class="container c2" data-title="About Section">Text Information</div>
+<div class="container c3" data-title="Image Slider">
+  <div class="slider">
+    <img id="slide" src="https://picsum.photos/400/200?1" />
+  </div>
+</div>
+
+<div class="container c4" data-title="Statistics">Static Content</div>
+<div class="container c5" data-title="Actions">
+  <button>Button A</button>
+  <button>Button B</button>
+</div>
+<div class="container c6" data-title="Gallery">Animated Content</div>
+
+    </main>
+
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
